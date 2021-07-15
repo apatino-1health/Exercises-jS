@@ -1,0 +1,43 @@
+@font-face {
+    font-family: DS-DIGI;
+    src: url('DS-DIGI.TTF');
+}
+
+@font-face {
+    font-family: DS-DIGII;
+    src: url('DS-DIGII.TTF');
+}
+html {
+    background-image: url(bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+}
+
+.wrap-clock {
+    font-family: DS-DIGI;
+    background-color: rgba(0,0,0,.5);
+    padding: 5px 45px;
+    border-radius: 10px;
+    
+    text-align: center;
+    color: #51f4e9;
+    text-shadow: 1px 1px 11px #51f4e9;
+}
+
+.details {
+    font-family: DS-DIGII;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.clock {
+    font-size: 8em;
+    line-height: 1em;
+}
